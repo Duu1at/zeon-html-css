@@ -1,0 +1,78 @@
+.footer {
+    max-width: 1366px;
+    min-height: 478px;
+    margin: 0 auto;
+    background-color: #181818;
+    font-size: 13px;
+    color: white;
+  
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    background-color: #181818;;
+    position: absolute;
+    z-index: 1;
+}
+.footerContact{
+    max-width: 190px;
+}
+.footerMap{
+    max-width:870px;
+    margin-left: 108px;
+}
+.footerMap img{
+    width: 870px;
+    height: 342px;  
+}
+
+.footerContact h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.phoneNumberBox {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+
+}
+
+.footerSocial {
+    margin-bottom: 20px;
+}
+
+.socialBox {
+    width: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.addresBox {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+hr {
+    margin-top: 25px;
+    border: none;
+    color: #212121;
+    background-color: #212121;
+    height: 1px;
+    margin-bottom: 15px;
+}
+
+.footerEndText {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+}

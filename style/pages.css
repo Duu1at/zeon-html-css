@@ -1,0 +1,20 @@
+.pageAbout {
+    margin-top: 32px;
+}
+
+.mainDesc {
+    width: 868px;
+    height: 609px;
+    color: #7F8D97;
+}
+
+.namePage {
+    font-size: 32px;
+    color: #181818;
+    padding-bottom: 13px;
+}
+
+.mainText {
+    font-weight: 300;
+    font-size: 14px;
+}

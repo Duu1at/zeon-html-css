@@ -1,0 +1,143 @@
+.header {
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 64px;
+    background-color: white;
+}
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+.headerLogo {
+    margin-left: 10px;
+}
+
+.headerLogo h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0F2A59;
+}
+
+.headerNav {
+    width: 75.5%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItem :hover {
+    opacity: 0.9;
+    color: #240808;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navItem:active {
+    opacity: 0.9;
+    color: #3a3d2b00;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navList {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.navItem {
+    display: inline;
+    border-left: 1px solid #161515;
+    padding: 0px 16px 0px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.navItem:first-child {
+    border: none;
+    padding-left: 0px;
+}
+
+.headerLanguage {
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px
+}
+
+.headerLanguage h4 {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.languageFlag {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media(max-width:700px) {
+    .headerNav{
+        display: none;
+    }
+    .headerMenu {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        top: 20px;
+        left: 320px;
+        z-index: 4;
+    }
+
+    .headerMenu span {
+        position: absolute;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 8px;
+    }
+
+    .headerMenu:before,
+    .headerMenu:after {
+        content: '';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+
+    .headerMenu:before {
+        top: 0;
+    }
+
+    .headerMenu:after {
+        bottom: 2px;
+    }
+
+
+    .headerLogo {
+        position: absolute;
+        top: 15px;
+        z-index: 4;
+    }
+   
+}

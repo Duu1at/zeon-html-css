@@ -1,0 +1,287 @@
+/*  section box styles start*/
+.main {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.box {
+    margin-bottom: 104px;
+    color: black;
+}
+
+.boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxCol-4 {
+    width: 368px;
+    height: 130px;
+    background-color: #F8F8F8;
+    display: inline;
+    border-left: 5px solid #0F2A59;
+    padding: 0px 0px 0px 19px;
+    position: relative;
+}
+
+.boxCol-4:first-child {
+    border-left: 5px solid #EBEBEB;
+}
+
+.boxTitle {
+    padding-top: 16px;
+    position: absolute;
+    z-index: 1;
+}
+
+.boxTitle h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.boxPic {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+}
+
+/* section box styles end*/
+
+
+
+
+
+/* section card styles start */
+.card {
+    margin-bottom: 72px;
+    color: white;
+}
+
+.cardText {
+    max-width: 575px;
+    height: 70px;
+    margin-bottom: 24px;
+}
+
+.cardText p {
+    font-weight: 700;
+    font-size: 28px;
+    color: #200E32;
+
+}
+
+.cardImages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardCol-6 {
+    width: 50%;
+    max-height: 383px;
+    position: relative;
+}
+.cardCol-6{
+	transform: scale(1.009);
+	transition: .3s ease-in-out;
+}
+.cardCol-6 img:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+    transform: 1s;
+}
+
+.cardMainDateTitle {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.cardImg {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.sizeImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.cardColumn--2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.cardMainPicDate {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cardDateTitle {
+    font-weight: 700;
+    font-size: 20px;
+    width: 90%;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+
+}
+
+.cardDate {
+    font-weight: 400;
+    font-size: 11px;
+    position: relative;
+    top: 20px;
+    right: 0;
+}
+
+.cardTitle {
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 1em;
+}
+
+/* section card styles end */
+
+
+
+/* holder styles start */
+
+.holder {
+    max-width: 100%;
+    max-height: 480px;
+    margin-top: 48px;
+    margin-bottom: 50px;
+    position: relative;
+    background: linear-gradient(0deg, rgba(250, 250, 250, 0.8), rgba(250, 250, 250, 0.8)), rgba(250, 250, 250, 0.8);
+}
+
+.holderPuc {
+    max-width: 900px;
+}
+
+.holderBox {
+    max-width: 540px;
+    min-height: 365px;
+    position: absolute;
+    top: 57px;
+    right: 64px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), rgba(255, 255, 255, 0.8);
+}
+
+
+
+.holderDesc {
+    max-width: 444px;
+    max-height: 244px;
+    margin: 48px 49px;
+}
+
+.holderDesc p {
+    font-weight: 400;
+    color: #B6B6B6;
+}
+
+.holderDesc h1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #181818;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 11px 75px;
+    max-height: 50px;
+    color: #0F2A59;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: skew(-10deg);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:active {
+    box-shadow: 2px 2px 10px #0F2A59;
+}
+
+
+.holderPucSecond {
+    max-width: 100%;
+    padding-left: 365px;
+}
+
+.holderPucSecond img {
+    max-width: 100%;
+}
+
+.holderDescSecond {
+    height: 380px;
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    z-index: 2;
+}
+
+
+.holderDescThirst {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    z-index: 1;
+}
+
+.holderThirst {
+    margin-bottom: 75px;
+}
+
+
+.contact {
+    max-width: 900px;
+    position: relative;
+    bottom: 250px;
+    right: 0;
+    z-index: 0;
+}
+
+.connect {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.addres {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addres {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.socialNetworks {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.iconSocial {
+    width: 10%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

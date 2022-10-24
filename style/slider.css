@@ -1,0 +1,88 @@
+/* section slider styles start */
+.slider {
+    max-width: 1366px;
+    height: 567px;
+    margin-bottom: 33px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/bagroundImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sliderContainer {
+    width: 95.3%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.sliderTitle {
+    max-width: 343px;
+    max-height: 176px;
+    position: relative;
+    bottom: 30px;
+    left: 70px;
+}
+
+.sliderText {
+    width: 90%;
+    height: 79%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sliderTitle h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.sliderPucture {
+    width: 734px;
+    height: 445px;
+}
+
+.sliderBtn {
+    margin-top: 55px;
+    padding: 11px 45px;
+    color: white;
+    outline: solid 1px white;
+    border: 0;
+    background: transparent;
+}
+
+.sliderBtn:hover {
+    border: 2px solid transparent;
+    color: black;
+    transform: scale(1.05);
+    background-color: rgb(245, 245, 239);
+    cursor: pointer;
+}
+
+.controllerLeftButton {
+    position: relative;
+    bottom: 249px;
+    right: 0px;
+}
+
+.controllerRightButton {
+    position: relative;
+    bottom: 249px;
+    left: 0px;
+}
+
+.sliderController {
+    position: absolute;
+    bottom: -5px;
+    right: 555px;
+}
+
+/* section slider styles end */

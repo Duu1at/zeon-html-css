@@ -1,0 +1,546 @@
+@media only screen and (max-width: 1189px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .footerMap {
+        margin-left: 78px;
+    }
+}
+
+@media (max-width: 1168px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .headerLogo {
+        width: 10%;
+    }
+
+    .headerNav {
+        max-width: 90%;
+    }
+
+    .navList {
+        width: 70%;
+        display: flex;
+    }
+
+    .headerLanguage {
+        width: 22%;
+        display: flex;
+    }
+
+    .boxContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .boxCol-4 {
+        width: 720px;
+        margin-top: 20px;
+    }
+
+    .holderPucSecond {
+        padding-left: 100px;
+    }
+
+    .cardImg:first-child {
+        margin-left: -20px;
+    }
+
+    .sliderPucture {
+        max-width: 615px;
+    }
+
+    .sliderController {
+        position: absolute;
+        bottom: 0px;
+        right: 373px;
+    }
+
+    .footerMap img {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1017px) {
+    .footer {
+        min-height: 765px;
+    }
+
+    .footerContainer {
+        display: block;
+    }
+
+    .footerContact {
+        max-width: 320px;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 993px) {
+
+    .holderBox {
+        max-width: 500px;
+        min-height: 310px;
+        position: absolute;
+        top: 18px;
+        right: 64px;
+    }
+
+    .holderDesc {
+        max-width: 444px;
+        max-height: 244px;
+        margin: 17px 44px;
+    }
+
+    .holderDesc h1 {
+        font-size: 22px;
+    }
+
+    .holderDesc p {
+        font-size: 12px
+    }
+
+    .holderDescSecond {
+        height: 340px;
+        position: absolute;
+        top: 12px;
+        left: 25px;
+    }
+
+    .slider {
+        height: 435px;
+    }
+
+    .sliderPucture {
+        width: 520px;
+        height: 445px;
+    }
+
+    .contact p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 750px;
+        padding: 0 15px;
+    }
+
+    .cardImages {
+        display: block;
+
+    }
+
+    .cardCol-6 {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin-bottom: 120px;
+    }
+
+    .cardCol-6 img {
+        width: 100%;
+    }
+
+    .sizeImg img {
+        width: 100%;
+    }
+
+    .controllerLeftButton {
+        position: relative;
+        bottom: 175px;
+        left: 0px;
+    }
+
+    .controllerLeft img {
+        width: 80%;
+    }
+
+    .controllerRightButton img {
+        width: 80%;
+    }
+
+    .controllerRightButton {
+        position: relative;
+        bottom: 175px;
+        left: 0px;
+    }
+
+    .footerContact {
+        max-width: 334px;
+        margin: 10px auto;
+    }
+
+}
+
+@media (max-width: 912px) {
+    .sliderController {
+        position: absolute;
+        bottom: 0px;
+        right: 330px;
+    }
+    .holderPucSecond {
+        padding-left: 0px;
+    }
+}
+
+
+@media(max-width:880px) {
+    .sliderPucture {
+        width: 777px;
+        position: absolute;
+        top: 0;
+        left: 33px;
+    }
+
+    .sliderTitle {
+        position: relative;
+        bottom: 30px;
+        left: 275px;
+        z-index: 2;
+    }
+}
+
+@media(max-width:825px) {
+    .sliderPucture {
+        width: 700px;
+    }
+
+    .sliderTitle {
+        position: relative;
+        bottom: 30px;
+        left: 230px;
+    }
+
+    .sliderController {
+        position: absolute;
+        bottom: 0px;
+        right: 320px;
+    }
+}
+
+@media(max-width:790px) {
+    .sliderPucture {
+        width: 660px;
+    }
+
+    .sliderTitle {
+        position: relative;
+        bottom: 65px;
+        left: 220px;
+    }
+
+    .sliderController {
+        position: absolute;
+        bottom: 0px;
+        right: 240px;
+    }
+
+    .sliderController img {
+        width: 80%;
+    }
+
+    .footerMap img {
+        height: 290px;
+    }
+
+    .footer {
+        min-height: 700px;
+    }
+}
+
+@media(max-width:767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+@media(max-width:725px) {
+    .holderDescSecond {
+        height: 310px;
+    }
+
+    .holderBox {
+        max-width: 422px;
+        min-height: 260px;
+    }
+
+    .slider {
+        height: 440px;
+    }
+
+    .sliderPucture {
+        width: 600px;
+    }
+
+    .sliderTitle {
+        position: relative;
+        bottom: 35px;
+        left: 198px;
+    }
+
+    .controllerRightButton {
+        position: relative;
+        bottom: 185px;
+        left: 0px;
+    }
+
+    .controllerLeftButton {
+        position: relative;
+        bottom: 185px;
+        right: 0px;
+    }
+}
+
+@media(max-width:650px) {
+    .slider {
+        height: 365px;
+    }
+
+    .sliderPucture {
+        width: 510px;
+    }
+
+    .sliderTitle {
+        position: relative;
+        bottom: 0px;
+        left: 140px;
+    }
+
+    .sliderController {
+        position: absolute;
+        bottom: 0px;
+        right: 170px;
+    }
+
+    .controllerRightButton {
+        position: relative;
+        bottom: 145px;
+        left: 0px;
+    }
+
+    .controllerLeftButton {
+        position: relative;
+        bottom: 145px;
+        left: 0px;
+    }
+
+    .footer {
+        min-height: 640px;
+    }
+
+    .footerMap img {
+        height: 230px;
+    }
+
+}
+
+@media(max-width:620px) {
+    .cardCol-6 {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:557px) {
+    .container {
+        max-width: none;
+    }
+
+    .cardText p {
+        font-size: 20px;
+    }
+    .cardMainPicTitle {
+        font-size: 14px;
+    }
+    .cardMainPicDate {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .cardMainPicDate {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:560px) {
+    .controllerLeft img {
+        width: 80%;
+    }
+    .controllerRightButton img {
+        width: 80%;
+    }
+
+}
+
+@media(max-width:541px) {
+    .headerMenu {
+        left: 460px;
+    }
+    .holderPucSecond {
+        padding-left: 0px;
+    }
+    .footerMap img {
+        height: 200px;
+    }
+    .sliderPucture {
+        left: 0px;
+    }
+
+}
+@media(max-width:415px){
+    .sliderPucture {
+        width: 400px;
+    }
+    .headerMenu {
+        left: 340px;
+    }
+    .sliderTitle {
+        left: 40px;
+    }
+    .sliderBtn {
+        padding: 11px 80px;
+    }
+    .sliderController {
+        right: 75px;
+    }
+    .holderDesc h1 {
+        font-size: 15px;
+    }
+    .holderDesc p {
+        font-size: 9px;
+    }
+}
+@media(max-width:413px) {
+    .sliderPucture {
+        max-width: 385px;
+    }
+    .headerMenu {
+        left: 340px;
+    }
+    .sliderTitle {
+        position: relative;
+        bottom: 0px;
+        left: 36px;
+    }
+    .sliderController {
+        right: 80px;
+    }
+    .sliderBtn {
+        margin-top: 45px;
+        padding: 11px 65px;
+    }
+    .cardTitle {
+        font-size: 9px;
+    }
+    .cardDate {
+        font-size: 8px;
+    }
+    .holderBox {
+        min-height: 175px;
+    }
+    .holderDesc h1 {
+        font-size: 14px;
+    }
+    .holderDesc p {
+        font-size: 9px;
+    }
+    .holderDesc {
+        margin: 0px 0px;
+    }
+    .holderDescSecond {
+        left: 0px;
+    }
+    .holderDescSecond {
+        height: 205px;
+    }
+    .footer{
+        min-height: 570px;
+    }
+    .footerMap img {
+        height: 150px;
+    }
+}
+
+@media(max-width:391px){
+    .sliderPucture {
+        width: 325px;
+        top: 42px;
+        left: 20px;
+    }
+    .sliderTitle {
+        bottom: 0px;
+        left: 40px;
+    }
+    .cardTitle {
+        font-size: 8px;  
+    }
+    .cardDate {
+        font-size: 8px;
+        top: 15px;
+        right: 0;
+    }
+    .sliderTitle h2 {
+        font-size: 22px;
+    }
+    .sliderTitle p {
+        font-size: 12px;
+    }
+    .sliderBtn {
+        margin-top: 45px;
+        padding: 5px 52px;
+    }
+    .sliderController {
+        right: 70px;
+    }
+    .holderDescSecond {
+        height: 140px;
+    }
+    .holderDesc h1 {
+        font-size: 15px;
+    }
+    .holderDesc p {
+        font-size: 8px;
+    }
+    .btn {
+        margin-top: 0px;
+        padding: 1px 35px;
+    }
+    .holderBox {
+        max-width: 422px;
+        min-height: 174px;
+    }
+    .holderDesc {
+        max-width: 444px;
+        max-height: 244px;
+        margin: 0px 9px;
+    }
+    .holderPucSecond {
+        padding-left: 0px;
+    }
+    .holderDescSecond {
+        height: 170px;
+        top: 17px;
+        left: 0px;
+    }
+    .footer {
+        min-height: 580px;
+    }
+    .footerMap {
+        margin-left: 20px;
+    }
+    .footerMap img {
+        height: 170px;
+    }
+}
+@media(max-width:391px){
+    .headerMenu {
+        left: 290px;
+    }
+    .holderBox {
+        min-height: 150px;
+    }
+}
